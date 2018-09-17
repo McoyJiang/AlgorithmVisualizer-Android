@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
                                 startActivity(new Intent(MainActivity.this, SettingsActivity.class));
                                 break;
                             case 3:
-                                startActivity(new Intent(MainActivity.this, DonateActivity.class));
+                                startActivity(new Intent(MainActivity.this, MainActivity.class));
                                 break;
                         }
                         break;
